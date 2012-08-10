@@ -3,6 +3,7 @@
 ;; Copyright 2011-2012 Florian Kaufmann <sensorflo@gmail.com>
 ;;
 ;; Author: Florian Kaufmann <sensorflo@gmail.com>
+;; URL: https://gitorious.org/logfile-mode
 ;; Created: 2011
 ;; Version: 0.1
 ;; Keywords: log
@@ -31,7 +32,7 @@
 
 ;; (require 'hide-lines)
 (require 'outline)
-(require 'markup-faces)
+(require 'markup-faces) ; https://github.com/sensorflo/markup-faces
 (require 'font-lock-ext) ; https://github.com/sensorflo/font-lock-ext/
 
 (defvar logfile-mode-hook nil
