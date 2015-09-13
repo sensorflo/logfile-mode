@@ -3,7 +3,7 @@
 ;; Copyright 2011-2012 Florian Kaufmann <sensorflo@gmail.com>
 ;;
 ;; Author: Florian Kaufmann <sensorflo@gmail.com>
-;; URL: https://gitorious.org/logfile-mode
+;; URL: https://github.com/sensorflo/logfile-mode.git
 ;; Created: 2011
 ;; Version: 0.1
 ;; Keywords: log
