@@ -35,9 +35,6 @@
 (require 'markup-faces) ; https://github.com/sensorflo/markup-faces
 (require 'font-lock-ext) ; https://github.com/sensorflo/font-lock-ext/
 
-(defvar logfile-mode-hook nil
-  "Normal hook run when entering logfile mode.")
-
 (setq logfile-re-prefix
       "^\\(?:\\([-a-zA-Z0-9_]+\\) +\\([[0-9:,]*]:\\)[ \t]*\\)")
 (setq logfile-re-error
@@ -132,8 +129,7 @@ Turning on logfile mode runs the normal hook `logfile-mode-hook'."
        (concat "\\(?:"
 	       (mapconcat 'identity (list logfile-re-page logfile-re-chapter logfile-re-chapter-end) "\\|")
 	       "\\)"))
-  (set (make-local-variable 'outline-level) 'logfile-outline-level)
-  (run-hooks 'logfile-mode-hook))
+  (set (make-local-variable 'outline-level) 'logfile-outline-level))
 
 (provide 'logfile-mode)
 
