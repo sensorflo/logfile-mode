@@ -25,10 +25,7 @@
 ;;
 ;;; Commentary:
 ;;
-;; Curently pretty much tailored for the nova project, i.e. not yet a general
-;; logfile viewer mode.
-;;
-;;; Variables: 
+;;; Variables:
 
 ;; (require 'hide-lines)
 (require 'outline)
